@@ -63,6 +63,7 @@ cc_binary {
         "//device/qcom/qssi/vsdk_tools/host",
         "//vendor:__subpackages__",
     ],
+    recovery_available: true,
 }
 
 lib_common_srcs = [
